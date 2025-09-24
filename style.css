@@ -1,0 +1,109 @@
+
+/* main */
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    line-height: 1.6;
+    background: #1e1e1e;
+    color: #f0f0f0;
+}
+
+/* profile pciture */
+.profile-pic {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background: #000000;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+
+/* navigation type */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+/* navigation type a */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+    nav a:hover,
+    nav a:focus {
+        text-decoration: underline;
+    }
+
+    /*sticky nav */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #003366;
+    padding: 0.5em;
+    z-index: 1000;
+}
+
+/* main */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+}
+
+/* article */
+article {
+    margin-bottom: 2em;
+}
+
+/* aside */
+aside {
+    background: #f0f0f0;
+    padding: 1em;
+    border-left: 4px solid #333;
+    margin-top: 2em;
+}
+
+/* logos */
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+/* foot */
+footer {
+    background: #333333;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    color: #ddd;
+}
+
+/* skip to content*/
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    background: yellow;
+    color: black;
+    padding: 0.5em;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    z-index: 1000;
+}
