@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Resume Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Project 2</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="project1.html">Project 1</a></li>
+                <li><a href="project2.html">Project 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>Degree Audit Program</h2>
+            </header>
+            <p> For one of my classes in Sophomore year, I was tasked with creating a degree audit
+                program, that could atomatically assess what classes were needed
+                to graduate, and generate a rough degree audit including a class
+                schedule and cost analysis.            
+            </p>
+        </article>
+
+        <article id="project1">
+            <div class="slideshow">
+
+                <!-- radio style buttons -->
+                <input type="radio" name="slides" id="slide1" checked>
+                <input type="radio" name="slides" id="slide2">
+                <input type="radio" name="slides" id="slide3">
+
+                <!-- slides -->
+                <figure class="slide">
+                    <img src="images/eclipse1.jpg" alt="A screenshot of the student data code.">
+                    <figcaption>This aspect of the code handled searching for student data.</figcaption>
+                </figure>
+
+                <figure class="slide">
+                    <img src="images/ecplise2.jpg" alt="Screenshot of type-class code section.">
+                    <figcaption>This aspect handled different types of classes, like face-to-face versus online.</figcaption>
+                </figure>
+
+                <figure class="slide">
+                    <img src="images/eclipse3.jpg" alt="An example of getters and setters for the code.">
+                    <figcaption>The student class and it's accompanying fields.</figcaption>
+                </figure>
+
+                    <!-- Controls -->
+                <nav class="controls">
+                    <label for="slide1">1</label>
+                    <label for="slide2">2</label>
+                    <label for="slide3">3</label>
+                </nav>
+            </div>
+        </article>
+
+
+        <article>
+            <p>I learned many Java skills from this project, including: </p>
+            <ul>
+                <li>Input/Output Mechanics: Working with the I/O stream in Java was a 
+                    large undertaking for me, and a great learning experience.</li>
+                <li>SQL: Working with SQL packages was a new challenge, as well
+                    as working with databases as a whole, but I learned many tricks on how to work with them. </li>
+                <li>Exception Handling: Managing errors on a project this large took lots of effort, 
+                    but forced me to learn many of Java's tools to solve them.</li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <h1>Contact Me!</h1>
+            </header>
+
+            <nav aria-label="Contact links">
+                <ul class="contact-links">
+                    <li><a href="https://www.linkedin.com/in/david-paul-griffin-the3rd/" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="mailto:da716861@ucf.edu">Email</a></li>
+                    <li><a href="https://github.com/sonherby15" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010984141143" target="_blank" rel="noopener">Facebook</a></li>
+                </ul>
+            </nav>
+        </article>
+    </main>
+</body>
+</html>

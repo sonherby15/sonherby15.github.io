@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Griffin - Digital Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <h1>David Paul Griffin</h1>
+            <p>Aspiring Cybersecurity Specialist | Problem Solver | Creative Thinker</p>
+    <figure>
+        <img src="images/profile.jpg" alt="Profile picture of David Griffin" class="profile-pic">
+    </figure>
+     <nav aria-label="Main navigation">
+           <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="project1.html">Project 1</a></li>
+                <li><a href="project2.html">Project 2</a></li>
+          </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Professional statement section -->
+    <article>
+        <header>
+            <h2>Professional Objective Statement</h2>
+        </header>
+        <p>I am a Full-time student at the University of Central Florida, located in Orlando 
+            Florida. I plan to achieve my Bachelors in Information Technology by Spring of 
+            2026, with a minor in Secure Computing and Networks. Some of my interests are 
+            Networking and Networking Technology, IT Security, Cryptography, and IT Support.
+            I have held a Secret-Level Security Clearence, and recieved third place in a
+            Code Quest competition. Outside of work and education, I practice my baking skills
+            often. My favorite dish is chocolate lava cake, but I love baking pretzels and cakes too.
+
+        </p>
+    </article>
+
+    <!-- education section -->
+    <article>
+        <header>
+            <h2>Education</h2>
+        </header>
+        <ul>
+            <li>B.S. in Information Technology, University of Central Florida, May 2026</li>
+            <li>Associate of the Arts, Valencia College, May 2023</li>
+            <li>President's List, University High School, May 2023</li>
+        </ul>
+    </article>
+
+    <!-- experience section -->
+    <section id="experience">
+        <header>
+            <h2>Work Experience</h2>
+        </header>
+        <div class="job-slideshow">
+
+            <!-- Radio buttons (for each job) -->
+            <input type="radio" name="jobslides" id="job1" checked>
+            <input type="radio" name="jobslides" id="job2">
+            <input type="radio" name="jobslides" id="job3">
+
+            <!-- Job Cards -->
+            <article class="job-card">
+                <h3>Porogramming Intern</h3>
+                <p><strong>Air Force Munitions Directorate</strong> — <time datetime="2022-05">May 2022</time> to <time datetime="2022-08">Aug 2022</time></p>
+                <ul>
+                    <li>Enagaged in level one over-the-phone technical support.</li>
+                    <li>Collaborated to create accurate 3D Modeling situations using CAD software.</li>
+                </ul>
+            </article>
+
+            <article class="job-card">
+                <h3>IT Support Assistant</h3>
+                <p><strong>University Help Desk</strong> — <time datetime="2025-01">Jan 2025</time> to <time datetime="2025-09">Sep 2025</time></p>
+                <ul>
+                    <li>Provided troubleshooting for 100+ students and faculty.</li>
+                    <li>Configured networking hardware and software.</li>
+                </ul>
+            </article>
+
+            <article class="job-card">
+                <h3>Retail Manager</h3>
+                <p><strong>Party City</strong> — <time datetime="2021-05">May 2021</time> to <time datetime="2025-01">Jan 2025</time></p>
+                <ul>
+                    <li>Supervised a team of up to 10 employees while managing cash and inventory.</li>
+                    <li>Ensured efficient open and close of store.</li>
+                </ul>
+            </article>
+
+            <!-- Navigation controls -->
+            <nav class="job-controls" aria-label="Job navigation">
+                <label for="job1">1</label>
+                <label for="job2">2</label>
+                <label for="job3">3</label>
+            </nav>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <article>
+        <header>
+            <h1>Skills</h1>
+        </header>
+        <ul>
+            <li>HTML & CSS (Semantic)</li>
+            <li>Java & C Programming</li>
+            <li>Cybersecurity & Cryptography Fundamentals</li>
+        </ul>
+    </article>
+
+    <article id="projects">
+        <header>
+            <h1>My Works</h1>
+        </header>
+
+        <div class="slideshow">
+            <!-- radio style buttons -->
+            <input type="radio" name="slides" id="slide1" checked>
+            <input type="radio" name="slides" id="slide2">
+            <input type="radio" name="slides" id="slide3">
+
+            <!-- Slides -->
+            <figure class="slide">
+                <a href="project1.html">
+                    <img src="images/project3.jpg" alt="A screenshot of the UCF Together Website I helped create, showing the home page.">   
+                </a>
+                <figcaption>Project 1 — A website I built with semantic HTML & CSS, named UCF Together.</figcaption>
+            </figure>
+
+            <figure class="slide">
+                <a href="project2.html">
+                    <img src="images/project1.jpg" alt="Screenshot of Project 2, a coding project to calcualte student hours.">
+                </a>
+                <figcaption>Project 2 — A program to calculate student hours, and the most efficient path to graduation.</figcaption>
+            </figure>
+
+            <figure class="slide">
+                <img src="images/project2.jpg" alt="A baking project I completed, authentic German pretzels made with lye, served with mustard.">
+                <figcaption>I worked on many projects while interning at Eglin AFB, but for security reasons, can share no pictures.</figcaption>
+            </figure>
+
+            <!-- Controls -->
+            <nav class="controls">
+                <label for="slide1">1</label>
+                <label for="slide2">2</label>
+                <label for="slide3">3</label>
+            </nav>
+        </div>
+    </article>
+
+
+    <article>
+        <header>
+            <h1>Contact Me!</h1>
+        </header>
+        <nav aria-label="Contact links">
+            <ul class="contact-links">
+            <li><a href="https://www.linkedin.com/in/david-paul-griffin-the3rd/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:da716861@ucf.edu">Email</a></li>
+            <li><a href="https://github.com/sonherby15" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100010984141143" target="_blank" rel="noopener">Facebook</a></li>
+            </ul>
+        </nav>
+    </article>
+</main>
+
+</html>
